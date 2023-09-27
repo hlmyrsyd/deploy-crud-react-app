@@ -7,11 +7,11 @@ function App() {
   
   return (
     <BrowserRouter>
-    <Routes>
-      <Route path='/' element={<SignIn/>}></Route> 
-      <Route path='/SignUp' element={<SignUp/>}></Route> 
-      <Route path='/MainMenu' element={<MainMenu/>}></Route> 
-    </Routes>
+      <Routes>
+        <Route path='/' element={<SignIn/>}></Route> 
+        <Route path='/SignUp' element={<SignUp/>}></Route> 
+        <Route path='/MainMenu' element={<MainMenu/>}></Route> 
+      </Routes>
     </BrowserRouter>
   );
 }

@@ -1,6 +1,6 @@
 import './App.css';
 import { SignIn, SignUp, MainMenu } from './containers';
-import { HashRouter as BrowserRouter, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
